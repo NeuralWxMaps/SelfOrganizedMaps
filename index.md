@@ -41,4 +41,22 @@
       <td><img src="/Hgts25/Pttn814.png" width="450"></td>
     </tr>
   </table>
+    Upper left hand corner of the 300 mb Isotachs SOM
+    <hr>
+  <table border="0" cellpadding="0" cellspacing="0"> 
+    <tr>
+      <td><img src="/Isotachs25/Pttn990.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn991.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn992.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn993.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn994.png" width="450"></td>
+    <tr>
+      <td><img src="/Isotachs25/Pttn945.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn946.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn947.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn948.png" width="450"></td>
+      <td><img src="/Isotachs25/Pttn949.png" width="450"></td>
+  
+    
+  </table>
 </html>
