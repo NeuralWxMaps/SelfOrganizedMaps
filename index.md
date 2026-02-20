@@ -10,8 +10,10 @@
     <hr>
   <table border="0" cellpadding="0" cellspacing="0"> 
     <tr>
-      <td><img src="../AntPcpnIndex/API_WrnUS2026/API_WrnUS_021000z.png" width="400"></td>
-      <td><img src="../AntPcpnIndex/API_WrnUS2026/API_ErnUS_021000z.png" width="400"></td>
+      <td><img src="/Hgts25/Pttn990.png" width="400"></td>
+      <td><img src="/Hgts25/Pttn991.png" width="400"></td>
+      <td><img src="/Hgts25/Pttn992.png" width="400"></td>
+      <td><img src="/Hgts25/Pttn993.png" width="400"></td>
     </tr>
   </table>
 </html>
