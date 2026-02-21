@@ -45,17 +45,14 @@
     <hr>
   <table border="0" cellpadding="0" cellspacing="0"> 
     <tr>
-      <td><img src="/Hgts25/Pttn126.png" width="500"></td>
       <td><img src="/Hgts25/Pttn127.png" width="500"></td>
       <td><img src="/Hgts25/Pttn128.png" width="500"></td>
       <td><img src="/Hgts25/Pttn129.png" width="500"></td>
     <tr>
-      <td><img src="/Hgts25/Pttn81.png" width="500"></td>
       <td><img src="/Hgts25/Pttn82.png" width="500"></td>
       <td><img src="/Hgts25/Pttn83.png" width="500"></td>
       <td><img src="/Hgts25/Pttn84.png" width="500"></td>
     <tr>
-      <td><img src="/Hgts25/Pttn36.png" width="500"></td>
       <td><img src="/Hgts25/Pttn37.png" width="500"></td>
       <td><img src="/Hgts25/Pttn38.png" width="500"></td>
       <td><img src="/Hgts25/Pttn39.png" width="500"></td>
