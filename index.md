@@ -15,30 +15,35 @@
       <td><img src="/Hgts25/Pttn992.png" width="450"></td>
       <td><img src="/Hgts25/Pttn993.png" width="450"></td>
       <td><img src="/Hgts25/Pttn994.png" width="450"></td>
+      <td><img src="/Hgts25/Pttn995.png" width="450"></td>
     <tr>
       <td><img src="/Hgts25/Pttn945.png" width="450"></td>
       <td><img src="/Hgts25/Pttn946.png" width="450"></td>
       <td><img src="/Hgts25/Pttn947.png" width="450"></td>
       <td><img src="/Hgts25/Pttn948.png" width="450"></td>
       <td><img src="/Hgts25/Pttn949.png" width="450"></td>
+      <td><img src="/Hgts25/Pttn950.png" width="450"></td>
     <tr>
       <td><img src="/Hgts25/Pttn900.png" width="450"></td>
       <td><img src="/Hgts25/Pttn901.png" width="450"></td>
       <td><img src="/Hgts25/Pttn902.png" width="450"></td>
       <td><img src="/Hgts25/Pttn903.png" width="450"></td>
       <td><img src="/Hgts25/Pttn904.png" width="450"></td>
+      <td><img src="/Hgts25/Pttn905.png" width="450"></td>
     <tr>
       <td><img src="/Hgts25/Pttn855.png" width="450"></td>
       <td><img src="/Hgts25/Pttn856.png" width="450"></td>
       <td><img src="/Hgts25/Pttn857.png" width="450"></td>
       <td><img src="/Hgts25/Pttn858.png" width="450"></td>
       <td><img src="/Hgts25/Pttn859.png" width="450"></td>
+      <td><img src="/Hgts25/Pttn860.png" width="450"></td>
     <tr>
       <td><img src="/Hgts25/Pttn810.png" width="450"></td>
       <td><img src="/Hgts25/Pttn811.png" width="450"></td>
       <td><img src="/Hgts25/Pttn812.png" width="450"></td>
       <td><img src="/Hgts25/Pttn813.png" width="450"></td>
       <td><img src="/Hgts25/Pttn814.png" width="450"></td>
+      <td><img src="/Hgts25/Pttn815.png" width="450"></td>
     </tr>
   </table>
     Patterns that produced some of the wettest 6 hour periods of 2022
