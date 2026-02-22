@@ -143,6 +143,15 @@
 <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
+    <th>Column 0</th>
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+    <th>Column 4</th>
+    <th>Column 5</th>
+    <th>Column 6</th>
+    <th>Column 7</th>
+  <tr>
     <td><img src="/Isotachs25/Pttn990.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn991.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn992.png" width="450"></td>
@@ -173,7 +182,28 @@
     <td><img src="/Isotachs25/Pttn813.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn814.png" width="450"></td>
 </table>
+<table border="0" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <th>Column 2</th>
+    <th>Column 7</th>
+    <th>Column 12</th>
+    <th>Column 17</th>
+    <th>Column 22</th>
+    <th>Column 27</th>
+    <th>Column 32</th>
+    <th>Column 37</th>
+    <th>Column 42</th>
+  <tr>
+    <td><img src="/Isotachs25/Pttn947.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn952.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn957.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn962.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn967.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn972.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn977.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn982.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn987.png" width="450"></td>
   
-    
-  </table>
+  </tr>
+</table>
 </html>
