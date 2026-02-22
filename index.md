@@ -59,6 +59,39 @@
     <td><img src="/Hgts25/Pttn816.png" width="450"></td>
   </tr>
 </table>
+<table border="0" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <th>Column 2</th>
+    <th>Column 7</th>
+    <th>Column 12</th>
+    <th>Column 17</th>
+    <th>Column 22</th>
+    <th>Column 27</th>
+    <th>Column 32</th>
+    <th>Column 37</th>
+    <th>Column 42</th>
+  <tr>
+    <td><img src="/Hgts25/Pttn947.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn952.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn957.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn962.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn967.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn972.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn977.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn982.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn982.png" width="450"></td>
+  <tr>
+    <td><img src="/Hgts25/Pttn722.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn727.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn732.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn737.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn742.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn747.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn752.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn757.png" width="450"></td>
+    <td><img src="/Hgts25/Pttn762.png" width="450"></td>
+  </tr>
+</table>
 <h2>Patterns that produced some of the wettest 6 hour periods of 2022</h2>
 <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
