@@ -5,6 +5,7 @@
       Self-Organized Maps
   </head>
   <body>
+  <hr>
     <center>Upper left hand corner of the 500 mb Heights SOM</center>
   <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
