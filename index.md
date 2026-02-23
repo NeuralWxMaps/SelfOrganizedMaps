@@ -213,6 +213,26 @@
     <td><img src="/Isotachs25/Pttn752.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn757.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn762.png" width="450"></td>
+  <tr>
+    <td><img src="/Isotachs25/Pttn497.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn502.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn507.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn512.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn517.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn522.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn527.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn532.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn537.png" width="450"></td>
+  <tr>
+    <td><img src="/Isotachs25/Pttn272.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn277.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn282.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn287.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn292.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn297.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn302.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn307.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn312.png" width="450"></td>
   
   </tr>
 </table>
