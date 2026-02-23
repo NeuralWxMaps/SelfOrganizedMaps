@@ -7,7 +7,6 @@
   <body>
   <hr>
     <center>Upper left hand corner of the 500 mb Heights SOM</center>
-  <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 0</th>
@@ -62,7 +61,6 @@
 </table>
 <table border="0" cellpadding="0" cellspacing="0"> 
     <center>The 500 mb Heights SOM, 45 of the 1035 Solenoids</center>
-  <hr>
   <tr>
     <th>Column 2</th>
     <th>Column 7</th>
@@ -127,7 +125,6 @@
 </table>
 <hr>
 <center>Patterns that produced some of the wettest 6 hour periods of 2022</center>
-<hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <td><img src="/Hgts25/Pttn127.png" width="500"></td>
@@ -145,7 +142,6 @@
 </table>
 <hr>
 <center>Upper left hand corner of the 300 mb Isotachs SOM</center>
-<hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 0</th>
@@ -189,7 +185,6 @@
 </table>
   <hr>
     <center>The 300 mb Isotachs SOM, 45 of the 1035 Solenoids</center>
-  <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 2</th>
@@ -256,7 +251,6 @@
 </table>
 <hr>
 <center>Some of the Western Uited States Precipitation SOM</center>
-<hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 0</th>
@@ -268,13 +262,13 @@
     <th>Column 6</th>
     <th>Column 7</th>
   <tr>
-    <td><img src="/Pcpn2024/w24_990.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_991.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_992.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_993.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_994.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_995.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_996.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_813.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_815.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_826.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_845.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_866.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_870.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_889.png" width="450"></td>
   </tr>
 </table>
 </html>
