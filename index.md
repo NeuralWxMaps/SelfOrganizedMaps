@@ -287,7 +287,7 @@
     <th>Column 1</th>
     <th>Column 2</th>
     <th>Column 3</th>
-    <th>Column 3</th>
+    <th>Column 4</th>
   <tr>
     <td><img src="/Pcpn2024/w24_3068.png" width="450"></td>
     <td><img src="/Pcpn2024/w24_3069.png" width="450"></td>
