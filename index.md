@@ -61,6 +61,9 @@
   </tr>
 </table>
 <table border="0" cellpadding="0" cellspacing="0"> 
+  <hr>
+    <center>The 500 mb Heights SOM, 45 of the 1035 Solenoids</center>
+  <hr>
   <tr>
     <th>Column 2</th>
     <th>Column 7</th>
@@ -123,7 +126,8 @@
     <td><img src="/Hgts25/Pttn87.png" width="450"></td>
   </tr>
 </table>
-<h2>Patterns that produced some of the wettest 6 hour periods of 2022</h2>
+<hr>
+<center>Patterns that produced some of the wettest 6 hour periods of 2022</center>
 <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
@@ -140,7 +144,8 @@
     <td><img src="/Hgts25/Pttn39.png" width="500"></td>
   </tr>
 </table>
-<h2>Upper left hand corner of the 300 mb Isotachs SOM</h2>
+<hr>
+<center>Upper left hand corner of the 300 mb Isotachs SOM</center>
 <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
@@ -183,6 +188,9 @@
     <td><img src="/Isotachs25/Pttn813.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn814.png" width="450"></td>
 </table>
+  <hr>
+    <center>The 300 mb Isotachs SOM, 45 of the 1035 Solenoids</center>
+  <hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 2</th>
@@ -247,6 +255,9 @@
   
   </tr>
 </table>
+<hr>
+<center>Some of the Western Uited States Precipitation SOM</center>
+<hr>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 0</th>
