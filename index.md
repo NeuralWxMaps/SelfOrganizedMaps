@@ -279,4 +279,45 @@
     <td><img src="/Pcpn2024/w24_2894.png" width="450"></td>
   </tr>
 </table>
+<hr>
+<center>Some of the Western Uited States Precipitation SOM</center>
+<table border="0" cellpadding="0" cellspacing="0"> 
+  <tr>
+    <th>Column 0</th>
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+    <th>Column 3</th>
+  <tr>
+    <td><img src="/Pcpn2024/w24_3068.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3069.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3070.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3071.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3072.png" width="450"></td>
+  <tr>
+    <td><img src="/Pcpn2024/w24_3009.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3010.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3011.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3012.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3013.png" width="450"></td>
+  <tr>
+    <td><img src="/Pcpn2024/w24_2950.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2951.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2952.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2953.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2954.png" width="450"></td>
+  <tr>
+    <td><img src="/Pcpn2024/w24_2891.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2892.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2893.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2894.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2895.png" width="450"></td>
+  <tr>
+    <td><img src="/Pcpn2024/w24_2832.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2833.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2834.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2835.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2836.png" width="450"></td>
+  </tr>
+</table>
 </html>
