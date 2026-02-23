@@ -258,17 +258,24 @@
     <th>Column 2</th>
     <th>Column 3</th>
     <th>Column 4</th>
-    <th>Column 5</th>
-    <th>Column 6</th>
-    <th>Column 7</th>
   <tr>
-    <td><img src="/Pcpn2024/w24_813.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_815.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_826.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_845.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_866.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_870.png" width="450"></td>
-    <td><img src="/Pcpn2024/w24_889.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3068.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3069.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3070.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3071.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3072.png" width="450"></td>
+  <tr>
+    <td><img src="/Pcpn2024/w24_3009.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3010.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3011.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3012.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3013.png" width="450"></td>
+  <tr>
+    <td><img src="/Pcpn2024/w24_2950.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_2951.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3011.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3012.png" width="450"></td>
+    <td><img src="/Pcpn2024/w24_3013.png" width="450"></td>
   </tr>
 </table>
 </html>
