@@ -142,9 +142,6 @@
     <th>Column 2</th>
     <th>Column 3</th>
     <th>Column 4</th>
-    <th>Column 5</th>
-    <th>Column 6</th>
-    <th>Column 7</th>
   <tr>
     <td><img src="/Isotachs25/Pttn990.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn991.png" width="450"></td>
