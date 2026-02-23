@@ -61,7 +61,6 @@
   </tr>
 </table>
 <table border="0" cellpadding="0" cellspacing="0"> 
-  <hr>
     <center>The 500 mb Heights SOM, 45 of the 1035 Solenoids</center>
   <hr>
   <tr>
