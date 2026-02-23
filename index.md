@@ -203,6 +203,16 @@
     <td><img src="/Isotachs25/Pttn977.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn982.png" width="450"></td>
     <td><img src="/Isotachs25/Pttn987.png" width="450"></td>
+  <tr>
+    <td><img src="/Isotachs25/Pttn722.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn727.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn732.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn737.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn742.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn747.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn752.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn757.png" width="450"></td>
+    <td><img src="/Isotachs25/Pttn762.png" width="450"></td>
   
   </tr>
 </table>
