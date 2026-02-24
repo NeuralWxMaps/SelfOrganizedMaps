@@ -320,6 +320,8 @@
     <th>Column 3</th>
     <th>Column 4</th>
     <th>Column 5</th>
+    <th>Column 6</th>
+    <th>Column 7</th>
   <tr>
     <td><img src="/Pcpn2024/w24_3068.png" width="450"></td>
     <td><img src="/Pcpn2024/w24_3069.png" width="450"></td>
