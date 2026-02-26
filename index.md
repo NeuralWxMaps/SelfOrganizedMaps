@@ -6,10 +6,11 @@
   </head>
   <body>
   <hr>
+<table border="0" cellpadding="0" cellspacing="0"> 
 
-    <img src="/Images/FirstPttn.png" width="200">
-    <img src="/Images/SOMafter1stPttn.png" width="400">
-    
+    <td><img src="/Images/FirstPttn.png" width="200"></td>
+    <td><img src="/Images/SOMafter1stPttn.png" width="400"></td>
+</table>    
   <hr>    
     <center>Upper left hand corner of the 500 mb Heights SOM</center>
 <table border="0" cellpadding="0" cellspacing="0"> 
