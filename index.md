@@ -8,7 +8,9 @@
   <hr>
 
     <img src="/Images/FirstPttn.png" width="200">
+    <img src="/Images/SOMafter1stPttn.png" width="400">
     
+  <hr>    
     <center>Upper left hand corner of the 500 mb Heights SOM</center>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
