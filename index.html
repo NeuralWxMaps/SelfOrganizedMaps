@@ -11,19 +11,38 @@
     future extreme weather events. But a collection of case studies gives little indication of how often a certain pattern has developed, or what its climatological 
     probability might be. An organized catalog, or atlas, of historical weather patterns does not seem to exist, other than the chronological record in datasets like the NCAR Reanalysis.
     This project will set out to propose a possible catalog of weather patterns, and look into some possible uses for such a weather pattern catalog.</h4>
-    <h4>My proposal is to use a partial implementation of Self-Organized Maps, intoduced by Teuvo Kohonen in the late 1980s.  Using the idea that a weather map can be thought of as an 
-    array of grid points across the selected domain, each array in a training dataset can be compared to a collection of arrays, in a neural network that is equal in size to the number 
-    of grid points in the domain. Using the NCAR Reanalysis dataset, with its 2.5 degree by 2.5 degree grid, a domain that covers the northeast Pacific, the United States and much of
-    Canada makes a 23 by 45 grid. This would define 1035 solenoids in the Self-Organized Map, or Neural Network.</h4>
+    <h4>My proposal is to use a partial implementation of Self-Organized Maps, intoduced by Teuvo Kohonen in the late 1980s.  Using the idea that a weather map can be represented as an 
+    array of grid points across a selected domain, the arrays in a training dataset can be compared to a neural network of arrays, whose size is equal to the number 
+    of grid points in the domain. Using the 2.5 degree by 2.5 degree dataset in the NCAR Reanalysis, I chose a domain covering the northeast Pacific and almost all of North America.
+    This domain was a 23-by-45 grid, meaning that the Self-Organized Map, or Neural Network, would have 1035 points, or solenoids.</h4>
 
     <img src="./Hgts25/Pttn990.png" width="450">
 
-<table border="0" cellpadding="0" cellspacing="0"> 
+    <h4>A simplified example can show how the training of a Self-Organized Map works. Start with a 5-by-5 pattern(array) and a neural network of 25 arrays, initialized with values of zero.</h4>
 
-    <td><img src="./Images/FirstPttn.png" width="200"></td>
-    <td><img src="./Images/SOMafter1stPttn.png" width="400"></td>
+<table border="0" cellpadding="0" cellspacing="0"> 
+    <td><img src="./Images/FirstPttn.png" width="300"></td>
+    <td><img src="./Images/InitialNeuralNet.png" width="500"></td>
 </table>    
 
+    <h4>Calculate the sum of differences squared between training array and the arrays of each node of the neural network, looking for the node that has the lowest value. The node in the neural
+    network with the lowest value will be chosen as the winning node. In this case, all of the differences are equal, so node 0 is chosen as the winning node.</h4>
+
+<table border="0" cellpadding="0" cellspacing="0"> 
+    <td><img src="./Images/FirstPttn.png" width="300"></td>
+    <td><img src="./Images/FirstPttnDiffs.png" width="500"></td>
+</table>
+
+    <h4>Next, the winning node of the neural network and its adjacent neighbors are adjusted toward the training pattern according to some simple rules. In this example, the winning node is
+    adjusted half way toward the training array. The directly adjacent nodes are adjusted one-quarter of the way toward the training array, and the diagonally adjacent node is adjusted
+    one-eighth of the way toward the training array. The adjusted network becomes the neural network that will be used in the next iteration of the algorithm.</h4>
+
+<table border="0" cellpadding="0" cellspacing="0"> 
+    <td><img src="./Images/FirstPttnDiffs.png" width="300"></td>
+    <td><img src="./Images/NNafter1stPttn.png" width="500"></td>
+</table>
+    
+      
     <h4>With a 23 by 45 neural network established, a training dataset stretching from 1951 through 2025 was run through the algorithm. For each individual weather pattern, its array was
     compared to the array of solenoids to find the closest pattern, by locating the smallest sum of differences squared.  Then the matchng solenoid and 48 of the closest solenoids were 
     adjusted toward the latest training array, with the adjustment diminishing as the euclidean distance from the matching solenoid increases. In the first epoch of training, I used
