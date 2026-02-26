@@ -22,7 +22,7 @@
 
 <table border="0" cellpadding="0" cellspacing="0"> 
     <td><img src="./Images/FirstPttn.png" width="200"></td>
-    <td><img src="./Images/InitialNeuralNet.png" width="600"></td>
+    <td><img src="./Images/InitialNeuralNet.png" width="700"></td>
 </table>    
 
     <h4>Calculate the sum of differences squared between training array and the arrays of each node of the neural network, looking for the node that has the lowest value. The node in the neural
@@ -30,7 +30,7 @@
 
 <table border="0" cellpadding="0" cellspacing="0"> 
     <td><img src="./Images/FirstPttn.png" width="200"></td>
-    <td><img src="./Images/FirstPttnDiffs.png" width="600"></td>
+    <td><img src="./Images/FirstPttnDiffs.png" width="700"></td>
 </table>
 
     <h4>Next, the winning node of the neural network and its adjacent neighbors are adjusted toward the training pattern according to some simple rules. In this example, the winning node is
@@ -39,28 +39,31 @@
 
 <table border="0" cellpadding="0" cellspacing="0"> 
     <td><img src="./Images/FirstPttn.png" width="200"></td>
-    <td><img src="./Images/InitialNeuralNet.png" width="600"></td>
-    <td><img src="./Images/FirstPttnDiffs.png" width="400"></td>
-    <td><img src="./Images/SOMafter1stPttn.png" width="600"></td>
+    <td><img src="./Images/InitialNeuralNet.png" width="700"></td>
+    <td><img src="./Images/FirstPttnDiffs.png" width="500"></td>
+    <td><img src="./Images/SOMafter1stPttn.png" width="700"></td>
 </table>
     
     <h4>For the next iteration, calculate differences between a new pattern and each of the nodes in the neural network, select the winning node, and then adjust the network based on the rules.</h4>
 
 <table border="0" cellpadding="0" cellspacing="0"> 
     <td><img src="./Images/SecondPttn.png" width="200"></td>
-    <td><img src="./Images/NNafter1stPttn.png" width="600"></td>
-    <td><img src="./Images/SecondPttnDiffs.png" width="400"></td>
-    <td><img src="./Images/SOMafter2ndPttn.png" width="600"></td>
+    <td><img src="./Images/NNafter1stPttn.png" width="700"></td>
+    <td><img src="./Images/SecondPttnDiffs.png" width="500"></td>
+    <td><img src="./Images/SOMafter2ndPttn.png" width="700"></td>
 </table>
 
     <h4>One more iteration will show a node other than Node 0 being the winning node, allowing the neural network(self-organized map) to begin expanding.</h4>
 
 <table border="0" cellpadding="0" cellspacing="0"> 
     <td><img src="./Images/ThirdPttn.png" width="200"></td>
-    <td><img src="./Images/NNafter2ndPttn.png" width="600"></td>
-    <td><img src="./Images/ThirdPttnDiffs.png" width="400"></td>
-    <td><img src="./Images/SOMafter3rdPttn.png" width="600"></td>
+    <td><img src="./Images/NNafter2ndPttn.png" width="700"></td>
+    <td><img src="./Images/ThirdPttnDiffs.png" width="500"></td>
+    <td><img src="./Images/SOMafter3rdPttn.png" width="700"></td>
 </table>
+
+    <h4>As more patterns are cycled through the algorithm, more and more nodes in the self-organized map will be defined, and unique patterns will emerge. Since only neighboring nodes are
+    affected on successive iterations, much of the neural network remains unchanged each time, while local adjustments are applied.</h4>
     
     <h4>With a 23 by 45 neural network established, a training dataset stretching from 1951 through 2025 was run through the algorithm. For each individual weather pattern, its array was
     compared to the array of solenoids to find the closest pattern, by locating the smallest sum of differences squared.  Then the matchng solenoid and 48 of the closest solenoids were 
