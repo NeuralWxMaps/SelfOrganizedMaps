@@ -15,7 +15,15 @@
     array of grid points across the selected domain, each array in a training dataset can be compared to a collection of arrays, in a neural network that is equal in size to the number 
     of grid points in the domain. Using the NCAR Reanalysis dataset, with its 2.5 degree by 2.5 degree grid, a domain that covers the northeast Pacific, the United States and much of
     Canada makes a 23 by 45 grid. This would define 1035 solenoids in the Self-Organized Map, or Neural Network.</h4>
+
     <img src="./Hgts25/Pttn990.png" width="450">
+
+<table border="0" cellpadding="0" cellspacing="0"> 
+
+    <td><img src="./Images/FirstPttn.png" width="200"></td>
+    <td><img src="./Images/SOMafter1stPttn.png" width="400"></td>
+</table>    
+
     <h4>With a 23 by 45 neural network established, a training dataset stretching from 1951 through 2025 was run through the algorithm. For each individual weather pattern, its array was
     compared to the array of solenoids to find the closest pattern, by locating the smallest sum of differences squared.  Then the matchng solenoid and 48 of the closest solenoids were 
     adjusted toward the latest training array, with the adjustment diminishing as the euclidean distance from the matching solenoid increases. In the first epoch of training, I used
