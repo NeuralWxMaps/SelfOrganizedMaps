@@ -16,12 +16,12 @@
     of grid points in the domain. Using the 2.5 degree by 2.5 degree dataset in the NCAR Reanalysis, I chose a domain covering the northeast Pacific and almost all of North America.
     This domain was a 23-by-45 grid, meaning that the Self-Organized Map, or Neural Network, would have 1035 points, or solenoids.</h4>
 
-    <img src="./Hgts25/Pttn990.png" width="450">
+    <img src="./Hgts25/Pttn990.png" width="500">
 
     <h4>A simplified example can show how the training of a Self-Organized Map works. Start with a 5-by-5 pattern(array) and a neural network of 25 arrays, initialized with values of zero.</h4>
 
 <table border="0" cellpadding="0" cellspacing="0"> 
-    <td><img src="./Images/FirstPttn.png" width="500"></td>
+    <td><img src="./Images/FirstPttn.png" width="600"></td>
     <td><img src="./Images/InitialNeuralNet.png" width="600"></td>
 </table>    
 
@@ -29,7 +29,7 @@
     network with the lowest value will be chosen as the winning node. In this case, all of the differences are equal, so node 0 is chosen as the winning node.</h4>
 
 <table border="0" cellpadding="0" cellspacing="0"> 
-    <td><img src="./Images/FirstPttn.png" width="500"></td>
+    <td><img src="./Images/FirstPttn.png" width="600"></td>
     <td><img src="./Images/FirstPttnDiffs.png" width="600"></td>
 </table>
 
@@ -48,7 +48,16 @@
     <td><img src="./Images/SecondPttn.png" width="600"></td>
     <td><img src="./Images/SOMafter1stPttn.png" width="600"></td>
     <td><img src="./Images/SecondPttnDiffs.png" width="600"></td>
-    <td><img src="./Images/NNafter2stPttn.png" width="600"></td>
+    <td><img src="./Images/NNafter2ndPttn.png" width="600"></td>
+</table>
+
+    <h4>One more iteration will show a node other than Node 0 being the winning node, allowing the neural network(self-organized map) to begin expanding.</h4>
+
+<table border="0" cellpadding="0" cellspacing="0"> 
+    <td><img src="./Images/ThirdPttn.png" width="600"></td>
+    <td><img src="./Images/SOMafter2ndPttn.png" width="600"></td>
+    <td><img src="./Images/ThirdPttnDiffs.png" width="600"></td>
+    <td><img src="./Images/NNafter3rdPttn.png" width="600"></td>
 </table>
     
     <h4>With a 23 by 45 neural network established, a training dataset stretching from 1951 through 2025 was run through the algorithm. For each individual weather pattern, its array was
