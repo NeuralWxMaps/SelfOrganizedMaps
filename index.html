@@ -61,7 +61,7 @@
 
     <h4>As more patterns are cycled through the algorithm, more and more nodes in the self-organized map will be defined, and unique patterns will emerge. Since only neighboring nodes are
     affected on successive iterations, much of the neural network remains unchanged each time, while local adjustments are applied.</h4>
-    
+<hr>    
     <h4>Using the 2.5 degree by 2.5 degree dataset in the NCAR Reanalysis, I chose a domain covering the northeast Pacific Ocean and almost all of North America.
     This domain was a 23-by-45 grid, meaning that the Self-Organized Map, or Neural Network, would have 1035 points, or solenoids.</h4>
 
@@ -74,11 +74,11 @@
     16,500 unique weather patterns, spanning 75 years were run through the training algorithm to define the 1035 nodes of the neural network.</h4>
     
     <h4>The first parameter that I worked with was the 500 hPa geopotential height field. There is a seasonal variation in geopotential height fields with higher values in the summer and 
-    lower values in the winter. In order to remove this seasonal variation, the height value of the center grid point of the training data array was subtracted from the rest of the array
+    lower values in the winter. In order to remove this seasonal variation, the height value of the center grid point of the training weather pattern was subtracted from the rest of the array
     as it was run through the algorithm.</h4>
     
-    <h4>The resulting self-organized map of weather patterns is a collection of patterns with neighboring nodes being similar, but not identical to each other. Moving across the the rows 
-    and columns of the neural network of weather patterns shows increasing variety as euclidean distance increases. After defining all of the arrays in the neural network, it becomes 
+    <h4>The resulting self-organized map of weather patterns is a collection of patterns with neighboring nodes being similar, but not identical, to each other. Moving across the rows 
+    and columns of the neural network of weather patterns shows increasing variety as euclidean distance increases. After all of the solenoids in the neural network have been defined, it is 
     possible to assign any weather pattern to a single node of the neural network. The following table shows how neighboring nodes are similar, but not identical to their neighbors.</h4>
     
       <hr><center>Upper left hand corner of the 500 hPa Geopotential Heights SOM</center>
@@ -90,6 +90,7 @@
     <th>Column 3</th>
     <th>Column 4</th>
     <th>Column 5</th>
+    <th>Column 6</th>
   <tr>
     <td><img src="./Hgts25/Pttn990.png" width="400"></td>
     <td><img src="./Hgts25/Pttn991.png" width="400"></td>
@@ -97,6 +98,7 @@
     <td><img src="./Hgts25/Pttn993.png" width="400"></td>
     <td><img src="./Hgts25/Pttn994.png" width="400"></td>
     <td><img src="./Hgts25/Pttn995.png" width="400"></td>
+    <td><img src="./Hgts25/Pttn996.png" width="400"></td>
   <tr>
     <td><img src="./Hgts25/Pttn945.png" width="400"></td>
     <td><img src="./Hgts25/Pttn946.png" width="400"></td>
@@ -104,6 +106,7 @@
     <td><img src="./Hgts25/Pttn948.png" width="400"></td>
     <td><img src="./Hgts25/Pttn949.png" width="400"></td>
     <td><img src="./Hgts25/Pttn950.png" width="400"></td>
+    <td><img src="./Hgts25/Pttn951.png" width="400"></td>
   <tr>
     <td><img src="./Hgts25/Pttn900.png" width="400"></td>
     <td><img src="./Hgts25/Pttn901.png" width="400"></td>
@@ -111,6 +114,7 @@
     <td><img src="./Hgts25/Pttn903.png" width="400"></td>
     <td><img src="./Hgts25/Pttn904.png" width="400"></td>
     <td><img src="./Hgts25/Pttn905.png" width="400"></td>
+    <td><img src="./Hgts25/Pttn906.png" width="400"></td>
   <tr>
     <td><img src="./Hgts25/Pttn855.png" width="400"></td>
     <td><img src="./Hgts25/Pttn856.png" width="400"></td>
@@ -118,6 +122,7 @@
     <td><img src="./Hgts25/Pttn858.png" width="400"></td>
     <td><img src="./Hgts25/Pttn859.png" width="400"></td>
     <td><img src="./Hgts25/Pttn860.png" width="400"></td>
+    <td><img src="./Hgts25/Pttn861.png" width="400"></td>
   <tr>
     <td><img src="./Hgts25/Pttn810.png" width="400"></td>
     <td><img src="./Hgts25/Pttn811.png" width="400"></td>
@@ -125,8 +130,12 @@
     <td><img src="./Hgts25/Pttn813.png" width="400"></td>
     <td><img src="./Hgts25/Pttn814.png" width="400"></td>
     <td><img src="./Hgts25/Pttn815.png" width="400"></td>
+    <td><img src="./Hgts25/Pttn816.png" width="400"></td>
   </tr>
 </table>
+<hr>
+    <h3>Looking at each node of a Self-Organized Map of this size has limited utility. A better way to capture the essence of all the information contained in a SOM is to view
+    an abbreviated version the neural network. This display of the SOM is every fifth node, or about 20 percent of the map's members.</h3>
 <table border="1" cellpadding="0" cellspacing="0"> 
     <h2><center>The 500 hPa Geopotential Heights SOM</h2>
   <h3>45 of the 1035 Solenoids</center></h3>
