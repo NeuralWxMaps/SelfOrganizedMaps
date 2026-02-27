@@ -13,11 +13,8 @@
     This project will set out to propose a possible catalog of weather patterns, and look into some possible uses for such a weather pattern catalog.</h4>
     <h4>My proposal is to use a partial implementation of Self-Organized Maps, intoduced by Teuvo Kohonen in the late 1980s.  Using the idea that a weather map can be represented as an 
     array of grid points across a selected domain, the arrays in a training dataset can be compared to a neural network of arrays, whose size is equal to the number 
-    of grid points in the domain. Using the 2.5 degree by 2.5 degree dataset in the NCAR Reanalysis, I chose a domain covering the northeast Pacific and almost all of North America.
-    This domain was a 23-by-45 grid, meaning that the Self-Organized Map, or Neural Network, would have 1035 points, or solenoids.</h4>
-
-    <img src="./Hgts25/Pttn990.png" width="500">
-
+    of grid points in the domain.</h4> 
+    
     <h4>A simplified example can show how the training of a Self-Organized Map works. Start with a 5-by-5 pattern(array) and a neural network of 25 arrays, initialized with values of zero.</h4>
 
 <table border="0" cellpadding="0" cellspacing="0"> 
@@ -65,17 +62,25 @@
     <h4>As more patterns are cycled through the algorithm, more and more nodes in the self-organized map will be defined, and unique patterns will emerge. Since only neighboring nodes are
     affected on successive iterations, much of the neural network remains unchanged each time, while local adjustments are applied.</h4>
     
-    <h4>With a 23 by 45 neural network established, a training dataset stretching from 1951 through 2025 was run through the algorithm. For each individual weather pattern, its array was
-    compared to the array of solenoids to find the closest pattern, by locating the smallest sum of differences squared.  Then the matchng solenoid and 48 of the closest solenoids were 
-    adjusted toward the latest training array, with the adjustment diminishing as the euclidean distance from the matching solenoid increases. In the first epoch of training, I used
-    every 9th time period of the year for every third year staring with 1951. In the second epoch, every 7th time period of the year was used for every third year starting in 1952. And the
-    third epoch involved every 5th time period of every third year, starting with 1953. In this manner, 16,500 uniqe weather patterns, spanning 75 years were run through the training 
-    algorithm to define the 1035 nodes of the neural network.</h4>
-    <h4>The first parameter that I worked with was the 500 hPa geopotential height field.  In order to normalize the data, and remove the seasonal variation in 500 hPa geopotential
-    heights, the height value of the center grid point was subtracted from each grid point of the array of data as it was run through the algorithm. By plotting the resulting array
-    of weather patterns, any node's neighboring nodes will be similar, but not identical to the first node. Moving across the the rows and columns of the neural network of weather patterns
-    shows increasing variety as euclidean distance increases. After defining all of the arrays in the neural network, it will be possible to assign the value of the closest matching
-    node to any weather pattern that is desired. This table shows how neighboring nodes are similar, but not identical to their neighbors.</h4>
+    <h4>Using the 2.5 degree by 2.5 degree dataset in the NCAR Reanalysis, I chose a domain covering the northeast Pacific Ocean and almost all of North America.
+    This domain was a 23-by-45 grid, meaning that the Self-Organized Map, or Neural Network, would have 1035 points, or solenoids.</h4>
+
+    <img src="./Hgts25/Pttn990.png" width="500">
+
+    <h4>With the 23-by-45 neural network established, a training dataset stretching from 1951 through 2025 was passed through the algorithm. After identifying the closest pattern,
+    the matching solenoid and 48 of the surrounding solenoids were adjusted toward the latest training array, with the adjustment diminishing as the euclidean distance from the matching 
+    solenoid increased. In the first epoch of training, I used every 9th time period of the year from the years 1951, 1954, 1957...2020, 2023. In the second epoch, every 7th time period of the
+    year was used from the years 1952, 1955, 1958...2021, 2024. And the third epoch involved every 5th time period of the year from the years 1953, 1956, 1959...2022, 2025. In this manner, 
+    16,500 unique weather patterns, spanning 75 years were run through the training algorithm to define the 1035 nodes of the neural network.</h4>
+    
+    <h4>The first parameter that I worked with was the 500 hPa geopotential height field. There is a seasonal variation in geopotential height fields with higher values in the summer and 
+    lower values in the winter. In order to remove this seasonal variation, the height value of the center grid point of the training data array was subtracted from the rest of the array
+    as it was run through the algorithm.</h4>
+    
+    <h4>The resulting self-organized map of weather patterns is a collection of patterns with neighboring nodes being similar, but not identical to each other. Moving across the the rows 
+    and columns of the neural network of weather patterns shows increasing variety as euclidean distance increases. After defining all of the arrays in the neural network, it becomes 
+    possible to assign any weather pattern to a single node of the neural network. The following table shows how neighboring nodes are similar, but not identical to their neighbors.</h4>
+    
       <hr><center>Upper left hand corner of the 500 hPa Geopotential Heights SOM</center>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
