@@ -65,7 +65,7 @@
     <h4>Using the 2.5 degree by 2.5 degree dataset in the NCAR Reanalysis, I chose a domain covering the northeast Pacific Ocean and almost all of North America.
     This domain was a 23-by-45 grid, meaning that the Self-Organized Map, or Neural Network, would have 1035 points, or solenoids.</h4>
 
-    <img src="./Hgts25/Pttn990.png" width="500">
+    <center><img src="./Hgts25/Pttn990.png" width="500"></center>
 
     <h4>With the 23-by-45 neural network established, a training dataset stretching from 1951 through 2025 was passed through the algorithm. After identifying the closest pattern,
     the matching solenoid and 48 of the surrounding solenoids were adjusted toward the latest training array, with the adjustment diminishing as the euclidean distance from the matching 
@@ -81,7 +81,8 @@
     and columns of the neural network of weather patterns shows increasing variety as euclidean distance increases. After all of the solenoids in the neural network have been defined, it is 
     possible to assign any weather pattern to a single node of the neural network. The following table shows how neighboring nodes are similar, but not identical to their neighbors.</h4>
     
-      <hr><center>Upper left hand corner of the 500 hPa Geopotential Heights SOM</center>
+  <hr>
+    <h3><center>Upper left hand corner of the 500 hPa Geopotential Heights SOM</center></h3>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 0</th>
@@ -134,11 +135,11 @@
   </tr>
 </table>
 <hr>
-    <h3>Looking at each node of a Self-Organized Map of this size has limited utility. A better way to capture the essence of all the information contained in a SOM is to view
-    an abbreviated version the neural network. This display of the SOM is every fifth node, or about 20 percent of the map's members.</h3>
+    <h4>Looking at each node of a Self-Organized Map of this size has limited utility. A better way to capture the essence of all the information contained in a SOM is to view
+    an abbreviated version the neural network. This display of the SOM is every fifth node, or about 20 percent of the map's members.</h4>
 <table border="1" cellpadding="0" cellspacing="0"> 
-    <h2><center>The 500 hPa Geopotential Heights SOM</h2>
-  <h3>45 of the 1035 Solenoids</center></h3>
+  <h2><center>The 500 hPa Geopotential Heights SOM(abbreviated)</center></h2>
+  <h3><center>45 of the 1035 Solenoids</center></h3>
   <tr>
     <th>Column 2</th>
     <th>Column 7</th>
@@ -202,23 +203,10 @@
   </tr>
 </table>
 <hr>
-<h3><center>Patterns that produced some of the wettest 6 hour periods of 2022</center></h3>
-<table border="1" cellpadding="0" cellspacing="0"> 
-  <tr>
-    <td><img src="./Hgts25/Pttn127.png" width="450"></td>
-    <td><img src="./Hgts25/Pttn128.png" width="450"></td>
-    <td><img src="./Hgts25/Pttn129.png" width="450"></td>
-  <tr>
-    <td><img src="./Hgts25/Pttn82.png" width="450"></td>
-    <td><img src="./Hgts25/Pttn83.png" width="450"></td>
-    <td><img src="./Hgts25/Pttn84.png" width="450"></td>
-  <tr>
-    <td><img src="./Hgts25/Pttn37.png" width="450"></td>
-    <td><img src="./Hgts25/Pttn38.png" width="450"></td>
-    <td><img src="./Hgts25/Pttn39.png" width="450"></td>
-  </tr>
-</table>
-<hr>
+    <h4>The second meteorological parameter that I worked with was upper level wind speeds, also known as isotachs. The 300 hectoPascal(HPa) level was chosen to help distinguish
+    benign jet level wind conditions from stronger and more significant jet level wind patterns. The data for the winds was not normalized in any way since values of this parameter
+    vary from zero up to a maximum value, regardless of the time of year. Here is a table of the 300 hPa Isotachs SOM, showing the similarities between neighboring nodes and the
+    increasing variability of patterns in different regions of the SOM.</h4>
 <h3><center>Upper left hand corner of the 300 mb Isotachs SOM</center></h3>
 <table border="1" cellpadding="0" cellspacing="0"> 
   <tr>
@@ -227,39 +215,46 @@
     <th>Column 2</th>
     <th>Column 3</th>
     <th>Column 4</th>
+    <th>Column 5</th>
   <tr>
     <td><img src="./Isotachs25/Pttn990.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn991.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn992.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn993.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn994.png" width="450"></td>
+    <td><img src="./Isotachs25/Pttn995.png" width="450"></td>
   <tr>
     <td><img src="./Isotachs25/Pttn945.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn946.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn947.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn948.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn949.png" width="450"></td>
+    <td><img src="./Isotachs25/Pttn950.png" width="450"></td>
   <tr>
     <td><img src="./Isotachs25/Pttn900.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn901.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn902.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn903.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn904.png" width="450"></td>
+    <td><img src="./Isotachs25/Pttn905.png" width="450"></td>
   <tr>
     <td><img src="./Isotachs25/Pttn855.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn856.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn857.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn858.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn859.png" width="450"></td>
+    <td><img src="./Isotachs25/Pttn860.png" width="450"></td>
   <tr>
     <td><img src="./Isotachs25/Pttn810.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn811.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn812.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn813.png" width="450"></td>
     <td><img src="./Isotachs25/Pttn814.png" width="450"></td>
+    <td><img src="./Isotachs25/Pttn815.png" width="450"></td>
 </table>
   <hr>
-    <h3><center>The 300 mb Isotachs SOM, 45 of the 1035 Solenoids</center></h3>
+    <h3><center>The 300 hPa Isotachs SOM(abbreviated)</center></h3>
+    <h4><center></center>45 of the 1035 Solenoids</center></h4>
 <table border="0" cellpadding="0" cellspacing="0"> 
   <tr>
     <th>Column 2</th>
